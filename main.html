@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form id="frm1" action="/action_page.php">
+  First name: <input type="text" id="fname"><br>
+  Last name: <input type="text" id="lname"><br><br>
+</form> 
+
+<button onclick="myFunction()">Start</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("fname");
+  var s = document.getElementById("fname")
+  var text = "";
+  var i;
+  for (i = 0; i < x.length ;i++) {
+    text += x.elements[i].value + "<br>";
+  }
+  document.getElementById("demo").innerHTML = s.value;
+}
+</script>
+
+</body>
+</html>
